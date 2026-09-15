@@ -25,7 +25,7 @@ def add_student():
     section = input("Enter section: ")
 
     marks = {}
-    for subject in ["English", "Maths", "Science", "Computer", "Social Science"]:
+    for subject in ["English", "m", "Science", "Computer", "Social Science"]:
         marks[subject] = float(input(f"Enter {subject} marks: "))
 
     students[roll] = {
