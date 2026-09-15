@@ -13,7 +13,7 @@ def percentage(marks):
     return sum(marks.values()) / len(marks)
 
 def add_student():
-    roll = input("Enter roll number: ")
+    roll = input("Enter r: ")
 
     if roll in students:
         print("Student already exists.")
