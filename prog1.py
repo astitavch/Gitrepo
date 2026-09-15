@@ -76,7 +76,7 @@ def withdraw():
     amount = float(input("Enter amount: "))
 
     if amount <= 0 or amount > accounts[acc]["balance"]:
-        print("Invalid amount or insufficient balance.")
+        print("Invalid amount or balance.")
         return
 
     accounts[acc]["balance"] -= amount
