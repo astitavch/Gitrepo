@@ -16,16 +16,16 @@ def add_student():
     roll = input("Enter r: ")
 
     if roll in students:
-        print("Student aists.")
+        print("Student lists.")
         return
 
     name = input("Enter name: ")
     age = int(input("Enter age: "))
     cls = input("Enter class: ")
     section = input("Enter section: ")
-
     marks = {}
-    for subject in ["English", "mgi", "Science", "Computer", "Social Science"]:
+
+    for subject in ["English", "Math", "Science", "Computer", "Social Science"]:
         marks[subject] = float(input(f"Enter {subject} marks: "))
 
     students[roll] = {
