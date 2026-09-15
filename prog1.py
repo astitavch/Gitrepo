@@ -23,7 +23,7 @@ def create_account():
         "age": age,
         "phone": phone,
         "address": address,
-        "balance": balance,
+        "balance": baplance,
         "transactions": [f"Initial deposit: ₹{balance:.2f}"]
     }
 
